@@ -1,0 +1,182 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+}
+/* logo design */
+
+#logo{
+     max-width: 250px;
+     float: right;
+}
+/* h1,h2 text design */
+h1{
+    font-size:2em;
+    text-align: center;
+}
+h2{
+    font-size:1.8em;
+}
+/* css background image*/
+
+#bg1 {
+    background-image: url(../images/CBR1/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+#bg2 {
+    background-image: url(../images/CBR1/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;  
+}
+/* link to html section id */
+
+#intro {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Anton', sans-serif;
+    text-shadow: 4px 4px 0px green, 4px 4px 8px green;
+    color: white;
+    font-size: 60px;
+}
+/* link to html header id */
+
+#wei {
+    margin-top: 620px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+/* carousel color design */
+.carouselTitle {
+    font-weight: bolder;
+    text-shadow: 3px 3px 0px green, 3px 3px 6px black;
+}
+/* img design */
+img {
+    width: 100%;
+    height: 100%;
+}
+
+figure:hover > figcaption {
+    visibility: visible;
+}
+
+#myCarousel {
+    width: 100%;
+}
+/* navigation bar design*/
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: Black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* css media query and responsive design */
+@media (min-width: 1200px) {
+
+    .weizhang {
+        font-size: 6em;
+    }
+    .carouselTitle {
+        font-size: 6em;
+    }
+    #mySlides {
+        padding-top: 900px;
+       
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .weizhang {
+        font-size: 5em;
+    }
+    .carouselTitle {
+        font-size: 5em;
+    }
+    #mySlides {
+        padding-top: 600px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .weizhang {
+        font-size: 4em;
+    }
+    .carouselTitle {
+        font-size: 4em;
+    }
+    #mySlides {
+        padding-top: 500px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    .weizhang {
+        font-size: 3em;
+    }
+    .carouselTitle {
+        font-size: 3em;
+    }
+    #mySlides {
+        padding-top: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .weizhang {
+        font-size: 2.5em;
+    }
+    .carouselTitle {
+        font-size: 2.5em;
+    }
+    #mySlides {
+        padding-top: 350px;
+    }
+} 
+/* learn more button design*/
+
+.learnMore {
+    background-color: blue;
+    border-color: deepskyblue;
+    box-shadow: 1px 1px white;
+    color: white;
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+}
+/* footer design */
+.Footer {
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+
+
