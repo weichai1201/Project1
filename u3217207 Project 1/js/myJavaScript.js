@@ -8,7 +8,7 @@ var headings = ["Canberra Art Biennial"];
 var contents = ["Canberra Art Biennial"];
 //Source of the images
 
-var images = ["Riotact", "Contour", "Contour2", "Harris", "NewArt", "Sullivan"];
+var images = ["Strumpf", "Contour", "Contour2", "Harris", "NewArt", "Sullivan"];
 
 
 var techSection = document.getElementById("techs");
